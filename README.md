@@ -15,11 +15,9 @@
 <img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/b9041c53-3ddd-45b8-9e93-413379d7bb00">
 
 
-## 👨‍💻 Process & Role
-#### Overall Process
-###### - 기획, 서버구현, 프론트구현, 모델학습, 서버배포, PPT제작, 발표, 데이터수집
-#### 😺 My Role
-###### - 기획, 서버구현, 프론트구현, 서버배포, PPT제작, 데이더수집
+## 👨‍💻 My Role in Process
+#### 👑 Leader
+###### - 기획, 서버구현, 디자인, 프론트구현, 서버배포, PPT제작, 데이터수집, 총괄
 
 ## 🌏 Dataset & Model
 #### Dataset
@@ -31,7 +29,7 @@
 - 유사도 측정 모델 [ddobokki/klue-roberta-base-nli-sts](https://huggingface.co/ddobokki/klue-roberta-base-nli-sts)
 -----------------
 ## 🚀 Result
-- 발표ppt [추리추리 마추리 ppt](https://github.com/getreadytoUG/Matchuri.git/Matchuri.pdf)
+- 발표ppt [추리추리 마추리 ppt](https://github.com/getreadytoUG/Matchuri/blob/main/Matchuri.pdf)
 
 ### **프론트**
 - 제작 화면1
