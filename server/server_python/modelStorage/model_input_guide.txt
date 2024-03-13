@@ -1,0 +1,6 @@
+[ modelStroage 폴더에 모델을 넣어주시면됩니다. ]
+
+< 순서 >
+
+모델 실험실 -> 실행용 -> 최종 -> skt-kogp2-base-v2-2024-02-13_3-cuda.pth 를 다운받은 후 matchuri-last-model.pth 로 이름 변경 -> MATCHURI/server/server_python/modelStorage 에 저장
+-> 파이썬 서버와 노드 서버 동시 실행
