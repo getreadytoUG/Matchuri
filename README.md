@@ -1,4 +1,4 @@
-# 🔮 추리추리 마추리
+![image](https://github.com/getreadytoUG/Matchuri/assets/127275992/3fa0103b-770a-4f32-a6ca-282f968bc650)# 🔮 추리추리 마추리
 ##### 추리 수수께끼 게임 챗봇
 ###### 인원: 5명
 ###### 기간: 2024-01-12 ~ 2024-02-20
@@ -6,13 +6,15 @@
 ## 💡 프로젝트 기획
 평소에 심심할때 할게없을때 쉽게 할 수 있는 어플을 만들고 싶다는 생각이 들어 인터넷을 찾아보다가 수수께끼 문제들을 찾았습니다. 그래서 마추리팀은 단순 대화만 할 수 있는 챗봇이 아닌 수수께끼 게임을 만들어 문제를 스테이지 형식으로 구성하고 질문하면 해당 질문에 맞는 답변을 사용자에게 전달하고, 힌트 및 정답등을 버튼형식으로 구현하여 사용자가 더욱 쉽고 편하게 게임을 즐길 수 있도록 챗봇을 제작하였습니다.
 
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/5d3a7fb0-55e3-4dcc-a2bc-6a39ada0ae09">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/f015ca14-8bf3-4f52-b063-4ee8f36fe63d">
+
 
 <hr>
 
 # **마추리란?**
 사람과 챗봇이 수수께끼 문제를 같이 풀어가는 게임형식의 챗봇으로 유저(브리튼) 챗봇(마추리)로 구성되어있다.
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/b9041c53-3ddd-45b8-9e93-413379d7bb00">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/aafd69e6-33d0-473e-80ab-46bf00ec079f">
+
 
 
 ## 👨‍💻 My Role in Process
@@ -21,7 +23,7 @@
 
 ## 🌏 Dataset & Model
 #### Dataset
-- 문제별로 [질문과 답변 데이터](https://github.com/moon-123/Matchuri-NLP-project/files/14344362/QADataset.xlsx)를 직접 작성함
+- 문제별로 [질문과 답변 데이터](https://drive.google.com/file/d/1hooxqgkDLEYTyrYSiuQs8O9of8wcQ1VP/view?usp=drive_link)를 직접 작성함
 - 모델 학습에 사용한 문제는 총 6개로 2289개의 질문-답 데이터셋 사용
 
 #### Model
@@ -33,35 +35,36 @@
 
 ### **프론트**
 - 제작 화면1
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/102acf10-a28f-4910-9cf4-fcbbe411205e">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/3bd639e7-4d70-48f4-8453-6970013c61d4">
+
 
 - 제작 화면2
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/dc70ce0e-efc0-4c11-ba5a-46af259e8fb7">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/801f191b-b2a3-4b6c-9c33-c365f9e9236f">
 
 ### **서버**
 확장성을 위해 node, python 두가지 서버를 같이 사용 채팅부분을 제외한 나머지 부분은 전무 node.js로 서버를 작업하였고 모델과 소통해야하는 채팅 부분은 python 서버로 작업하였습니다.
 
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/1abe245c-1cab-4294-9e44-64e31c57926f">
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/ca2ee070-ea4b-46e9-85be-62f0dad75699">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/7e7a2023-4daf-4527-9693-665cffe95a8d">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/acc3a564-a6df-493e-854a-bd23f6e40c73">
 
 ### **모델**
 유저가 질문을 입력하면 RoBerta로 유사성을 검사하고 문제와 유저가 입력한 질문이 유사하다고 판단되면 GPT2 모델에 넣어 학습한 질문과 대조하여 학습된 답변을 그래도 출력하거나 GPT2가 생성한 답변을 출력되게 모델을 학습시켰습니다.
 
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/7be28c64-0c2a-4e17-ab4d-9c0295ba1180">
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/dff17a9b-6752-4187-a0f4-8e799135f226">
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/28ab16b7-c197-4998-8993-d5dfd0ad3c33">
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/49ffe5e3-0676-4e6a-97b9-8b504c6e3f2a">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/ade24316-65e4-4328-8bd8-da9f902ad279">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/f7171876-c2a9-42d4-a548-f7268155f6ac">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/ce4b3420-1687-4a08-a769-1be384a5f880">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/fabfea4b-2de8-42fe-a628-b35a9e4279fa">
 
 - **전처리 과정**
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/f08979cc-647c-4085-b13e-6e097dfe9e71">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/2269b777-6d77-4395-8126-316c9d4789e1">
 
 - **GPT2**
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/4ac6fced-5981-4921-ba5c-487182f1af63">
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/8ad2ec6f-2fb0-49e4-adaa-20f6299589de">
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/4bbd766f-4db5-4ebd-9524-9dcf0ea4250d">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/b1a1864e-9e7c-4ea7-8061-a7713b2839fc">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/3e02f2cc-f046-4752-8d08-470aace2dbf8">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/283c499a-684e-4b3b-bb07-7b18ff43d273">
 
 - **최종모델**
-<img width="100%" alt="image" src="https://github.com/dev-aram/Mathuri/assets/135501045/4dc61506-bd8a-45b1-bcfd-2a6b23431b69">
+<img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/e846ddff-70ef-42c2-b45f-d7fbc7f2e731">
 
 
 
