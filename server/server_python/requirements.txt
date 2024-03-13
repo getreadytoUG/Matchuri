@@ -1,7 +1,0 @@
-fastapi
-torch
-transformers
-pydantic
-pandas
-openpyxl
-uvicorn
