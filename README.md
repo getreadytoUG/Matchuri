@@ -42,13 +42,13 @@
 <img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/801f191b-b2a3-4b6c-9c33-c365f9e9236f">
 
 ### **서버**
-#### 확장성을 위해 node, python 두가지 서버를 같이 사용 채팅부분을 제외한 나머지 부분은 전무 node.js로 서버를 작업하였고 모델과 소통해야하는 채팅 부분은 python 서버로 작업하였습니다.
+#### - 확장성을 위해 node, python 두가지 서버를 같이 사용 채팅부분을 제외한 나머지 부분은 전무 node.js로 서버를 작업하였고 모델과 소통해야하는 채팅 부분은 python 서버로 작업하였습니다.
 
 <img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/7e7a2023-4daf-4527-9693-665cffe95a8d">
 <img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/acc3a564-a6df-493e-854a-bd23f6e40c73">
 
 ### **모델**
-#### 유저가 질문을 입력하면 RoBerta로 유사성을 검사하고 문제와 유저가 입력한 질문이 유사하다고 판단되면 GPT2 모델에 넣어 학습한 질문과 대조하여 학습된 답변을 그래도 출력하거나 GPT2가 생성한 답변을 출력되게 모델을 학습시켰습니다.
+#### - 유저가 질문을 입력하면 RoBerta로 유사성을 검사하고 문제와 유저가 입력한 질문이 유사하다고 판단되면 GPT2 모델에 넣어 학습한 질문과 대조하여 학습된 답변을 그래도 출력하거나 GPT2가 생성한 답변을 출력되게 모델을 학습시켰습니다.
 
 <img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/ade24316-65e4-4328-8bd8-da9f902ad279">
 <img width="100%" alt="image" src="https://github.com/getreadytoUG/Matchuri/assets/127275992/f7171876-c2a9-42d4-a548-f7268155f6ac">
